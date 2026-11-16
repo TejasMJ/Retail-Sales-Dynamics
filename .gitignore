@@ -1,0 +1,68 @@
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Python Cache and Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE and Editor Settings
+.vscode/
+.idea/
+
+# Trained Models and Serialized Artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# MLflow Tracking
+mlruns/
+mlartifacts/
+mlflow.db
+mlflow.db-*
+
+# Generated Data Files
+data/processed/*
+!data/processed/.gitkeep
+
+# Model Outputs
+models/*
+!models/.gitkeep
+
+# Generated Artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Temporary Files and Logs
+*.log
+logs/
+temp/
+tmp/
+.cache/
+
+# Build and Distribution Files
+build/
+dist/
+*.egg-info/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
